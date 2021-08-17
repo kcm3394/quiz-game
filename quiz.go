@@ -44,7 +44,7 @@ func main() {
 }
 
 func readArguments() (string, int, bool) {
-	fileName := flag.String("csv", "problems.csv", "a csv file in the format of `question,answer`")
+	fileName := flag.String("csv", "problems.csv", "a csv file in the format of 'question,answer'")
 	timeLimit := flag.Int("limit", 10, "the time limit for the quiz in seconds")
 	shuffle := flag.Bool("shuffle", false, "true/false if the questions will be shuffled")
 	flag.Parse()
